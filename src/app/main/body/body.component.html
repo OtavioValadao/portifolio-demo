@@ -1,0 +1,169 @@
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-6 col-8 flex-wrap align-items-center ">
+      <figure style="text-align: center;">
+        <img class="rounded-circle shadow-lg p-1 mb-5 bg-white rounded" src="../../../assets/images/Perfil.png"
+          style="height: 300px; width: 300px;" />
+        <figcaption style="text-align: center;">
+          <h2>Desenvolvedor Web</h2>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-xl-6 col-xl-6 col-lg-6 .col-md-6 col-sm-12">
+      <h1 style="color: #849042;" class="d-flex justify-content-end">Perfil
+      </h1>
+
+      <hr>
+      <h3 class="font-weight-bold text-right">Olá, é um prazer estar aqui com você! Fico muito feliz em poder ajudar no
+        que for
+        necessário.
+        Seja qual for o seu objetivo, estou aqui para ajudar! Conte comigo sempre que precisar.</h3>
+      <h1 class="d-flex justify-content-end" style="color: #849042;">Contato
+      </h1>
+      <hr>
+
+      <div class="d-flex row flex-row-reverse">
+        <div class="col-2 d-flex justify-content-end">
+          <i class="bi bi-whatsapp" style="font-size: 30px; color: #849042;"></i>
+        </div>
+        <div class="col-8 d-flex justify-content-end align-items-end">
+          <h5 class="titulo">{{'31998866134'| telefone}}</h5>
+        </div>
+      </div>
+
+      <div class="d-flex row flex-row-reverse">
+        <div class="col-2 d-flex justify-content-end">
+          <i class="bi bi-house-fill" style="font-size: 30px; color: #849042;"></i>
+        </div>
+        <div class="col-8 d-flex justify-content-end align-items-end">
+          <h5 class="titulo">MG - Contagem</h5>
+        </div>
+      </div>
+
+
+      <div class="d-flex row flex-row-reverse">
+        <div class="col-2 d-flex justify-content-end">
+          <i class="bi bi-envelope-at" style="font-size: 30px; color: #849042;"></i>
+        </div>
+        <div class="col-8 d-flex justify-content-end align-items-end">
+          <h5 class="titulo">otavionunesvaladao@gmail.com</h5>
+        </div>
+      </div>
+
+      <div class="d-flex row flex-row-reverse">
+        <div class="col-2 d-flex justify-content-end">
+          <i class="bi bi-globe" style="font-size: 30px; color: #849042;"></i>
+        </div>
+        <div class="col-8 d-flex justify-content-end align-items-end">
+          <h5 class="titulo">www.otaviovaladao.com.br</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-12 rounded d-flex align-items-center justify-content-center"
+      style="background-color: #849042; color: aliceblue;">
+      <h3 class="titulo">Formações</h3>
+    </div>
+    <div class="col-12 d-flex align-items-center justify-content-center mt-3">
+      <h4>2020 - Dias atuais</h4>
+    </div>
+    <div class="col-12 d-flex align-items-center justify-content-center mt-1 titulo">
+      <p>Bacharel em Ciências da Computação / Estácio de Sá</p>
+    </div>
+    <hr>
+    <div class="col-12 d-flex align-items-center justify-content-center mt-1">
+      <h4>2022</h4>
+    </div>
+    <div class="col-12 d-flex align-items-center justify-content-center mt-1 titulo">
+      <p>FIC - Desenvolvedor de aplicativos para mídias digitais</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 rounded d-flex align-items-center justify-content-center"
+      style="background-color: #849042; color: aliceblue;">
+      <h3 class="titulo">
+        Habilidades pessoais</h3>
+    </div>
+    <hr>
+  </div>
+
+  <div class="d-flex justify-content-around flex-wrap">
+    <ng-template #Criativo let-c="close" let-d="dismiss">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Olá amigo!</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+      </div>
+      <div class="modal-body">
+        <p>Permita-me apresentar: uma mente inquieta e curiosa, apaixonada por explorar novos horizontes e encontrar
+          soluções criativas para qualquer desafio. Sou alguém que acredita que a criatividade é uma força poderosa
+          capaz de transformar o mundo, e estou sempre buscando maneiras de colocar minhas ideias em prática e
+          inspirar outros a fazerem o mesmo. Então, se você está pronto para embarcar em uma jornada emocionante de
+          descoberta criativa, junte-se a mim e vamos fazer coisas incríveis juntos!</p>
+      </div>
+    </ng-template>
+
+    <button class="btn btn-outline titulo" style="background-color: #deeb98; color: #000000;"
+      (click)="open(Criativo)">Criativo</button>
+
+    <ng-template #Inovador let-c="close" let-d="dismiss">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Olá amigo!</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+      </div>
+      <div class="modal-body">
+        <p>A vida é uma aventura cheia de altos e baixos, mas é nos momentos mais desafiadores que encontramos a força
+          para crescer e evoluir. Não desista diante das dificuldades, pois elas são apenas uma oportunidade para
+          mostrar o seu potencial e alcançar coisas incríveis. Mantenha sua mente aberta para novas possibilidades e seu
+          coração cheio de determinação. Com persistência e coragem, você pode alcançar tudo o que deseja. Acredite em
+          si mesmo e siga em frente, pois o mundo está esperando pelas suas grandes conquistas.</p>
+      </div>
+    </ng-template>
+
+    <button class="btn btn-outline titulo" style="background-color: #deeb98; color: #000000;"
+      (click)="open(Inovador)">Inovador</button>
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="col-12 rounded d-flex align-items-center justify-content-center"
+      style="background-color: #849042; color: aliceblue;">
+      <h3 class="titulo">Experiencias</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mt-5">
+      <div class="timeline-steps aos-init">
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <h5>2018</h5>
+            <h4>Guarda vidas</h4>
+            <p>Minas Tenis nautico clube</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <h5>2020</h5>
+            <h4>Assistente de TI</h4>
+            <p>Rede Flex</p>
+          </div>
+        </div>
+        <div class="timeline-step mb-0">
+          <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <h5>2021 - Dias atuais</h5>
+            <h4>Desenvolvedor de Sistemas</h4>
+            <p>Engineering do brasil</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
