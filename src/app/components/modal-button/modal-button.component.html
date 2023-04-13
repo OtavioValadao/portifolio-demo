@@ -1,0 +1,11 @@
+<ng-template #event let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{titulo}}</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <p class="titulo">{{texto}}</p>
+  </div>
+</ng-template>
+
+<button class="btn btn-outline titulo" (click)="open(event)">{{habilidade}}</button>
