@@ -9,18 +9,20 @@ import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { MainModule } from './main/main.module';
 
+import { SaibaMaisRoutingModule } from './saiba-mais/saiba-mais.routing.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    NgBrazil,
     BrowserModule,
-    AppRoutingModule,
     NgbModule,
     MainModule,
-    NgBrazil,
     FontAwesomeModule,
-    ComponentsModule
+    ComponentsModule,
+    AppRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

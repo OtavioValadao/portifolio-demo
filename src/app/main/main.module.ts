@@ -9,7 +9,6 @@ import { ComponentsModule } from '../components/components.module';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { MainRoutingModule } from './main-routing.module';
 
 
 @NgModule({
@@ -20,7 +19,7 @@ import { MainRoutingModule } from './main-routing.module';
   ],
   imports: [
     CommonModule,
-    MainRoutingModule,
+
     NgbModule,
     NgBrazil,
     BrowserModule,
@@ -31,7 +30,7 @@ import { MainRoutingModule } from './main-routing.module';
     BodyComponent,
     FooterComponent,
     HeaderComponent,
-    MainRoutingModule
+
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
