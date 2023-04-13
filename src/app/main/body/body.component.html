@@ -6,19 +6,35 @@
         <img class="rounded-circle shadow-lg p-1 mb-5 bg-white rounded img" src="../../../assets/images/Perfil.png"
           style="height: 300px; width: 300px;" />
         <figcaption style="text-align: center;">
-          <h2>Desenvolvedor Web</h2>
+          <div class="row">
+            <div class="col-12">
+              <h2>Desenvolvedor Web</h2>
+            </div>
+          </div>
         </figcaption>
       </figure>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 mb-2 mt-2 stacks d-flex justify-content-around">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 mb-2 mt-2 stacks d-flex justify-content-around">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+        </div>
+      </div>
+
+
     </div>
     <div class="col-md-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
       <h1 style="color: #849042;" class="d-flex justify-content-end">Perfil
       </h1>
 
       <hr>
-      <h3 class="font-weight-bold text-right">Olá, é um prazer estar aqui com você! Fico muito feliz em poder ajudar no
-        que for
-        necessário.
-        Seja qual for o seu objetivo, estou aqui para ajudar! Conte comigo sempre que precisar.</h3>
+      <h3 class="font-weight-bold text-right">Olá, espero que esteja bem!
+        Estou aqui para te ajudar no que for necessário, de acordo com seu objetivo . Conte comigo!</h3>
       <h1 class="d-flex justify-content-end" style="color: #849042;">Contato
       </h1>
       <hr>
@@ -102,7 +118,6 @@
     <titulo [titulo]="'Habilidades pessoais'"></titulo>
   </div>
   <div class="row">
-    <time-line [ano1]="ano1" [empresa1]="empresa1" [cargo1]="cargo1" [ano2]="ano2" [empresa2]="empresa2"
-      [cargo2]="cargo2" [ano3]="ano3" [empresa3]="empresa3" [cargo3]="cargo3"></time-line>
+    <time-line [experiencias]="experiencias"></time-line>
   </div>
 </div>
