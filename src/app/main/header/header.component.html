@@ -1,13 +1,13 @@
 <header>
   <div class="container">
     <div class="d-flex justify-content-around flex-wrap mb-2 mt-3">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" [routerLink]="['/home']">
         <img src="../../../assets/images/Logo.png" width="30" height="30" class="d-inline-block align-bottom" alt="">
         Otávio Valadão
       </a>
-      <div ontouchstart="">
+      <div>
         <div class="button">
-          <a href="#">Saiba mais</a>
+          <a [routerLink]="['/saiba-mais']" >Saiba mais</a>
         </div>
       </div>
     </div>

@@ -1,28 +1,11 @@
-<!-- TODO: Melhorar abstração desse componente -->
 <div class="col mt-5">
   <div class="timeline-steps aos-init">
-    <div class="timeline-step">
+    <div class="timeline-step" *ngFor="let experiencia of experiencias">
       <div class="timeline-content">
         <div class="inner-circle"></div>
-        <h5>{{ano1}}</h5>
-        <h4>{{cargo1}}</h4>
-        <p>{{empresa1}}</p>
-      </div>
-    </div>
-    <div class="timeline-step">
-      <div class="timeline-content">
-        <div class="inner-circle"></div>
-        <h5>{{ano2}}</h5>
-        <h4>{{cargo2}}</h4>
-        <p>{{empresa2}}</p>
-      </div>
-    </div>
-    <div class="timeline-step">
-      <div class="timeline-content">
-        <div class="inner-circle"></div>
-        <h5>{{ano3}}</h5>
-        <h4>{{cargo3}}</h4>
-        <p>{{empresa3}}</p>
+        <h5>{{experiencia.ano}}</h5>
+        <h4>{{experiencia.cargo}}</h4>
+        <p>{{experiencia.empresa}}</p>
       </div>
     </div>
   </div>

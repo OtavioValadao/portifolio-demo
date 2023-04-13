@@ -9,6 +9,7 @@ import { ComponentsModule } from '../components/components.module';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -19,7 +20,7 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     CommonModule,
-
+    RouterModule,
     NgbModule,
     NgBrazil,
     BrowserModule,
